@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML internship training and assignment website">
+    <title>HTML Internship Training | Task 05</title>
+</head>
+<body id="top">
+    <header>
+        <h1>HTML Internship Training</h1>
+        <p>Welcome to my HTML learning and internship practice website.</p>
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#training">Training</a> |
+            <a href="#assignments">Assignments</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" data-section="welcome">
+            <h2>Home</h2>
+            <p>Hello, I am <strong>Ali Murtaza</strong>, a Software Engineering student learning web development.</p>
+            <p>This website brings together the <em>HTML topics</em> covered during my first five internship tasks.</p>
+            <figure>
+                <picture>
+                    <source srcset="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" type="image/svg+xml">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/256px-HTML5_logo_and_wordmark.svg.png"
+                         alt="HTML5 logo" width="180" height="180" loading="lazy">
+                </picture>
+                <figcaption>HTML5 is used to structure web pages.</figcaption>
+            </figure>
+            <p><small>This page uses only HTML and the browser's default appearance.</small></p>
+        </section>
+
+        <section id="about" data-section="introduction">
+            <h2>About</h2>
+            <article>
+                <h3>About This Training</h3>
+                <p><abbr title="HyperText Markup Language">HTML</abbr> is used to describe the content and structure of web pages.</p>
+                <p>The goal of this training is to understand HTML tags, forms, tables, media, and semantic elements.</p>
+                <blockquote>
+                    <p>Learning becomes easier when we practice one concept at a time.</p>
+                    <footer>— Course practice note</footer>
+                </blockquote>
+                <p>My reminder is <q>Keep practicing every day.</q></p>
+                <p>For more information, read <cite>MDN Web Docs: HTML</cite>.</p>
+            </article>
+            <aside>
+                <h3>Extra Note</h3>
+                <p>You can build the basic structure of a website before learning CSS or JavaScript.</p>
+            </aside>
+        </section>
+
+        <section id="skills" data-section="skills">
+            <h2>Skills</h2>
+            <h3>Topics Practiced</h3>
+            <ul>
+                <li>Headings, paragraphs, and lists</li>
+                <li>Links, images, and tables</li>
+                <li>Forms and HTML validation</li>
+                <li>Semantic elements and media</li>
+            </ul>
+            <h3>My Learning Steps</h3>
+            <ol>
+                <li>Understand the tag.</li>
+                <li>Write a small example.</li>
+                <li>Test the output in a browser.</li>
+            </ol>
+            <p><label for="trainingProgress">Training completed:</label></p>
+            <progress id="trainingProgress" value="5" max="5">5 out of 5</progress>
+            <p><label for="skillMeter">HTML confidence level:</label></p>
+            <meter id="skillMeter" min="0" max="10" low="3" high="8" optimum="10" value="7">7 out of 10</meter>
+            <p><mark>Practice tip:</mark> Save your HTML file with <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+            <p>Water is written as H<sub>2</sub>O and squared values use x<sup>2</sup>.</p>
+            <p><b>Important:</b> Forms need validation. <i>Note:</i> A browser may display tags differently.</p>
+            <p><u>Remember</u> to test all links and inputs.</p>
+            <p>Old task status: <del>Pending</del> <ins>Completed</ins>. Previous reminder: <s>Start tomorrow</s>.</p>
+        </section>
+
+        <section id="training" data-section="course">
+            <h2>Training</h2>
+            <p>Our example training session starts on <time datetime="2026-11-02">November 2, 2026</time> at <time datetime="15:00">3:00 PM</time>.</p>
+            <table border="1">
+                <caption>Example HTML Training Schedule</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Week</th>
+                        <th scope="col">Topic</th>
+                        <th scope="col">Practice</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>HTML Basics</td><td>Profile Page</td></tr>
+                    <tr><td>2</td><td>Forms and Tables</td><td>Registration Form</td></tr>
+                    <tr><td>3</td><td>Semantic and Media Elements</td><td>Course Page</td></tr>
+                    <tr><td>4</td><td>Advanced Controls</td><td>HTML Practice Page</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr><th scope="row" colspan="2">Total Weeks</th><td>4</td></tr>
+                </tfoot>
+            </table>
+
+            <article>
+                <h3>Video Example</h3>
+                <video controls width="360" preload="metadata">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+                    Your browser cannot play this video.
+                </video>
+                <p><small>This is a sample video to demonstrate HTML media controls.</small></p>
+            </article>
+            <article>
+                <h3>Audio Example</h3>
+                <audio controls preload="none">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+                    Your browser cannot play this audio.
+                </audio>
+            </article>
+            <article>
+                <h3>HTML Reference</h3>
+                <iframe title="Basic HTML reference" width="360" height="170"
+                        srcdoc="&lt;h2&gt;HTML Tags&lt;/h2&gt;&lt;p&gt;h1: heading&lt;/p&gt;&lt;p&gt;p: paragraph&lt;/p&gt;&lt;p&gt;a: link&lt;/p&gt;">
+                </iframe>
+            </article>
+            <article>
+                <h3>Code Example</h3>
+                <pre><code>&lt;h1&gt;My First Page&lt;/h1&gt;
+&lt;p&gt;Hello HTML!&lt;/p&gt;</code></pre>
+                <p>Sample result: <samp>My First Page</samp></p>
+                <p>Learn more at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML documentation</a>.</p>
+            </article>
+        </section>
+
+        <section id="assignments" data-section="assignments">
+            <h2>Assignments</h2>
+            <p>These are the five HTML tasks I have practiced.</p>
+            <article data-task="1">
+                <h3>Day 01: Personal Profile</h3>
+                <p>Introduction, images, lists, useful links, and basic contact controls.</p>
+            </article>
+            <article data-task="2">
+                <h3>Day 02: Intern Registration</h3>
+                <p>Fieldsets, different input types, dropdown menus, and education tables.</p>
+            </article>
+            <article data-task="3">
+                <h3>Day 03: HTML Course Page</h3>
+                <p>Semantic page structure, audio, video, iframe, and expandable FAQs.</p>
+            </article>
+            <article data-task="4">
+                <h3>Day 04: Advanced HTML</h3>
+                <p>Special inputs, datalist, progress, meter, and text formatting elements.</p>
+            </article>
+            <article data-task="5">
+                <h3>Day 05: Combined Website</h3>
+                <p>This page combines the topics learned in the previous assignments.</p>
+            </article>
+            <h3>Practice Examples</h3>
+            <p>Pick a topic from the suggested values:</p>
+            <label for="topicSearch">Topic:</label>
+            <input type="search" id="topicSearch" name="topicSearch" list="topics" placeholder="Search a topic">
+            <datalist id="topics">
+                <option value="Forms">
+                <option value="Tables">
+                <option value="Media">
+                <option value="Semantic HTML">
+            </datalist>
+            <p><output name="practiceResult">Example output: HTML practice completed.</output></p>
+            <p>Some names may be right-to-left: <bdi dir="auto">علی احمد</bdi>.</p>
+            <p>Text direction example: <bdo dir="rtl">Hello</bdo>.</p>
+            <template id="lessonTemplate">
+                <p>This lesson template is not displayed by the browser.</p>
+            </template>
+            <noscript><p>This HTML page works without JavaScript.</p></noscript>
+        </section>
+
+        <section id="contact" data-section="contact">
+            <h2>Contact</h2>
+            <p>Use this practice form to send an inquiry about HTML training. Fields marked * are required.</p>
+            <form action="/contact" method="post" enctype="multipart/form-data" autocomplete="on">
+                <input type="hidden" name="formType" value="training-contact">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <p>
+                        <label for="fullName">Full Name: *</label><br>
+                        <input type="text" id="fullName" name="fullName" minlength="3" maxlength="60"
+                               placeholder="Enter your full name" autocomplete="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email Address: *</label><br>
+                        <input type="email" id="email" name="email" placeholder="name@example.com"
+                               autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="03001234567"
+                               pattern="03[0-9]{9}" title="Enter an 11-digit number starting with 03" autocomplete="tel">
+                    </p>
+                    <p>
+                        <label for="birthDate">Date of Birth:</label><br>
+                        <input type="date" id="birthDate" name="birthDate" autocomplete="bday">
+                    </p>
+                    <p>
+                        <label for="portfolio">Portfolio:</label><br>
+                        <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com" autocomplete="url">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Training Preferences</legend>
+                    <p>
+                        <label for="course">Interested Course: *</label><br>
+                        <select id="course" name="course" required>
+                            <option value="">Choose a course</option>
+                            <optgroup label="Web Basics">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                            </optgroup>
+                            <optgroup label="Programming">
+                                <option value="javascript">JavaScript</option>
+                                <option value="python">Python</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="meetingTime">Preferred Interview Time:</label><br>
+                        <input type="time" id="meetingTime" name="meetingTime">
+                    </p>
+                    <p>
+                        <label for="trainingMonth">Training Month:</label><br>
+                        <input type="month" id="trainingMonth" name="trainingMonth">
+                    </p>
+                    <p>
+                        <label for="experience">Experience (months):</label><br>
+                        <input type="number" id="experience" name="experience" min="0" max="24" step="1" value="0">
+                    </p>
+                    <p>
+                        <label for="confidence">Confidence (1 to 10):</label><br>
+                        <input type="range" id="confidence" name="confidence" min="1" max="10" value="5">
+                    </p>
+                    <p>
+                        <label for="themeColor">Preferred Color:</label><br>
+                        <input type="color" id="themeColor" name="themeColor" value="#2255aa">
+                    </p>
+                    <p>
+                        <label for="resume">Resume (optional):</label><br>
+                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                    </p>
+                    <p>Areas of interest:</p>
+                    <input type="checkbox" id="frontend" name="interests" value="frontend">
+                    <label for="frontend">Frontend</label><br>
+                    <input type="checkbox" id="backend" name="interests" value="backend">
+                    <label for="backend">Backend</label><br>
+                    <input type="checkbox" id="ai" name="interests" value="ai">
+                    <label for="ai">Artificial Intelligence</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message and Confirmation</legend>
+                    <p>
+                        <label for="message">Your Message: *</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40"
+                                  minlength="10" maxlength="500" placeholder="Write your message here" required></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="terms" name="terms" value="yes" required>
+                        <label for="terms">I confirm the information is correct. *</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Send Inquiry">
+                    <input type="reset" value="Clear Form">
+                </p>
+            </form>
+            <h3>Contact Details</h3>
+            <address>
+                Training Contact (example)<br>
+                Lahore, Pakistan<br>
+                Email: <a href="mailto:training@example.com">training@example.com</a>
+            </address>
+        </section>
+
+        <section id="faq" data-section="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>Do I need CSS to learn HTML?</summary>
+                <p>No. HTML is used to structure a page. CSS can be learned separately.</p>
+            </details>
+            <details>
+                <summary>Can an HTML form save information by itself?</summary>
+                <p>No. A server is needed to process and save submitted data.</p>
+            </details>
+            <details>
+                <summary>What does the required attribute do?</summary>
+                <p>It prevents normal form submission while a required field is empty.</p>
+            </details>
+            <h3>Course Notice</h3>
+            <dialog open aria-label="Course notice">
+                <p>This is a static HTML dialog example.</p>
+            </dialog>
+            <p>The dialog is displayed using the open attribute.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>HTML Internship Practice — Task 05</small></p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
